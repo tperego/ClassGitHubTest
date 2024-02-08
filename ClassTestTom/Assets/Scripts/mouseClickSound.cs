@@ -11,9 +11,9 @@ public class mouseClickSound : MonoBehaviour
 {
 
     [SerializeField] private FMODUnity.StudioEventEmitter fmodEvent;
-   
+    [SerializeField] private GameObject sphere;
+ 
 
-    
 
     private void OnMouseEnter()
     {
@@ -21,9 +21,13 @@ public class mouseClickSound : MonoBehaviour
         fmodEvent.Play();
     }
 
+
     private void OnMouseExit()
     {
         
         fmodEvent.Stop();
     }
+   
+
+   
 }

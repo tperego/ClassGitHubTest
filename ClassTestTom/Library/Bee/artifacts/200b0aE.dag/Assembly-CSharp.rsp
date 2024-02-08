@@ -357,6 +357,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.5f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/mouseClickSound.cs"
+"Assets/Scripts/mouseTracker.cs"
 -langversion:9.0
 
 /deterministic
